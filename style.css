@@ -1,0 +1,105 @@
+* {
+   font-family: Arial, Helvetica, sans-serif;   
+}
+
+.price-table {
+    padding: 50px;  
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.03), 0 7px 25px 0 rgba(0,0,0,.03), 0 0 0 1px rgba(0,0,0,.05); 
+    
+}
+
+.price-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;    
+    text-align: center;
+}
+
+.price-table .column-itens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.price-table .column-title {
+    font-size: 20px;
+    color: #162D3D;
+}
+
+.price-table .title-line-two {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.price-table .title-line-three {
+    color: #7A92A5;
+    font-size: 12px;
+}
+
+.price-table .symbol {
+    font-size: 16px;
+   text-decoration: none;
+}
+
+.price-table .value {
+    font-size: 36px;
+}
+
+.price-table .month {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.price-table th,
+.price-table td {
+    border: 1px solid #dfe5eb;
+    padding: 10px;
+}
+
+.price-table th div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.price-table th hr {
+    width: 20px;    
+}
+
+.price-table tr hr {
+    width: 20px;    
+}
+
+.price-table tr {
+    font-size: 14px;
+    line-height: 18px;   
+}
+
+.subtitle-line {
+    color: #32536A;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.price-table .popular,
+.price-table td:nth-child(3) {
+    background-color: #f7f8fa;    
+}
+
+.price-table .flag {
+    background-color: white;   
+    color: #aa4dc8;
+    white-space: pre-line;
+    padding: 2px 5px;
+    font-size: 13px;
+    position: relative;
+    bottom: 20px;
+    border: 1px solid #dfe5eb;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.03), 0 7px 25px 0 rgba(0,0,0,.03), 0 0 0 1px rgba(0,0,0,.05);
+}
+
+.latin circle {
+   display: flex;
+   justify-content: space-between;
+}
